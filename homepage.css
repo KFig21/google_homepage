@@ -3,8 +3,8 @@
     --border-gray: #d6d6d6e1;
     --button-gray: #f1f1f1dc;
     --button-gray-hover: #f1f1f194;
-    --opacity:  rgba(228, 229, 240, 0.13);
-    --empty:   rgba(228, 229, 240, 0.00);
+    --opacity: rgba(228, 229, 240, 0.13);
+    --empty: rgba(228, 229, 240, 0.00);
 }
 
 body{
@@ -21,13 +21,13 @@ body{
     display: flex;
     justify-content: flex;
     width: 100%;
-    line-height: 40px;
+    line-height: 50px;
 }
     #header-left{
         display: flex;
         justify-content: flex-start;
         width: 50%;
-        padding-left: 10px;
+        padding-left: 5px;
     }
         #header-left a{
             padding-left: 15px;
@@ -37,11 +37,34 @@ body{
         display: flex;
         justify-content: flex-end;
         width: 50%;
-        padding-right: 20px;
+        padding-right: 30px;
     }
         #header-right a{
             padding-right: 15px;
         }
+        #options-icon{
+            display: flex;
+            justify-content: flex-end;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            fill: var(--dark-text);
+        }
+        .user-letter-container{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            height: 32px;
+            width: 32px;
+            margin: auto 0 auto 15px;
+            border-radius: 50%;
+            padding: 0%;
+            background-color: #7334af;
+        }
+            .user-letter{
+                margin-right: -2.5px;
+                color: white;
+            }
 
 /* google letters  */
 
@@ -142,6 +165,7 @@ body{
     line-height: 40px;
     background-color: var(--button-gray);
     border-top: solid 1px var(--border-gray);
+    color: #6d6d6d;
 }
     #footer-left{
         display: flex;
@@ -150,17 +174,21 @@ body{
         padding-left: 10px;
     }
         #footer-left a{
-            padding-left: 15px;
+            padding-left: 23px;
         }
 
     #footer-center{
         display: flex;
         justify-content: center;
         width: 50%;
-        padding-left: 10px;
     }
-        #footer-center a{
-            padding-left: 15px;
+        #leaf-icon{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto 5px;
+            height: 14px;
+            width: 12.25px;
         }
 
     #footer-right{
@@ -170,5 +198,5 @@ body{
         padding-right: 10px;
     }
         #footer-right a{
-            padding-right: 15px;
+            padding-right: 23px;
         }
